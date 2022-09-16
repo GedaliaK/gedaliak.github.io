@@ -25,7 +25,7 @@ I think it was Einstein that said something like, "If you can't explain an idea 
 
 So how did we do this? What's the magic? 
 
-#### $$\rightarrow$$ Fourier Theorem.
+#### $\rightarrow$ Fourier Theorem.
 
 I think I'll do away with the gritty of the mathematics for now, because this is really about getting excited about the math and then letting the details follow.
 
