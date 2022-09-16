@@ -6,4 +6,4 @@ permalink: /
 ---
 
 ### Posts
-[Fourier Theorem Post](./_posts/fourier_theorem.md)
+[Fourier Theorem Post](./fourier_theorem.md)
