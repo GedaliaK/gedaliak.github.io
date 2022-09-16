@@ -4,4 +4,4 @@ description: a blog or something...
 permalink: https://gedaliak.github.io/
 
 ### Posts
-![Fourier Theorem Post]("_posts\fourier theorem.md)
+[Fourier Theorem Post](./_posts/fourier%20theorem.md)
