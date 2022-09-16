@@ -1,5 +1,5 @@
 ---
-theme: jekyll-theme-minimal
+# theme: minima
 title: Fancy Title
 description: a blog or something...
 permalink: /
