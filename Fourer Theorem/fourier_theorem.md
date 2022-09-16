@@ -5,7 +5,8 @@ date: 2022-09-16
 categories: math "electrical engineering" fourier
 usemathjax: true
 ---
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<head> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
 
 <!-- <style> max-width:600px </style> -->
 
@@ -37,7 +38,7 @@ Say your teacher says to you:
 
 You might say back: I think you've bought a cellphone.
 
-<img src="./assets/big%20brain%20teacher.png" width="50%" height="50%">
+<img src="../assets/big%20brain%20teacher.png" width="50%" height="50%">
 
 Well, you'd be right, but he does propose an interesting question - how _do_ two people have a conversation on their phones without another phone conversation interfering with it. It's like asking, if we have many pairs of people talking in the same room to each other, how can they hear each other with all the background noise.
 
