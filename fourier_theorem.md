@@ -5,11 +5,6 @@ date: 2022-09-16
 categories: math "electrical engineering" fourier
 ---
 
-<script>
-    var head = document.getElementsByTagName('head');
-    head.innerHTML += '<script type="text/javascript" asyncsrc="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>'
-</script>
-
 <!-- <style> max-width:600px </style> -->
 
 ### Fourier Theorem or: How I Learned to Stop Worrying and Love the Math.
