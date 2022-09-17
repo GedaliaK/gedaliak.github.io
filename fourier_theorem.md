@@ -57,9 +57,9 @@ So let's say middle C on the piano is made up of sine waves or tones with freque
 
 Where Hz is just the unit of frequency (how low or high pitched the tone is).
 
-By the argument from before, the flute should have the same frequencies but the different _strengths_ of each one.
+Notes really are made of the same frequencies, so the flute should have the same frequencies. That said, the same notes sound different due to the different _strengths_ of each one.
 
-So our piano might have those tones with strengths (or amplitudes) of $5$, $1$, and $2$, but our flute might have strenghs $2$, $4$, and $3$. 
+So our piano might have those tones with strengths (or amplitudes) of $5$, $1$, and $2$, but our flute might have strengths $2$, $4$, and $3$. 
 
 I made those numbers up, but what those numbers would mean is that the piano has a stronger lower frequency component, while the flute has stronger high frequency components.
 
