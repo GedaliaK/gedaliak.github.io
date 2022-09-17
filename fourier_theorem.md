@@ -66,3 +66,31 @@ I made those numbers up, but what those numbers would mean is that the piano has
 <p align='center'> 
     <img src="./assets/piano_and_flute.png" > 
 </p>
+
+We can think of voice audio as the same sort of thing. A set of frequencies with different strengths. To make different sounds these strengths would change over time to form vowels and consanants. Our words are too, just like sounds, a combination of simpler parts. Sounds are a combination of frequencies, and words are a combination of vowels and consanants. 
+
+We can even say that all of the sounds we make are limited to a set of frequencies, just like a C on any instrument is limited to a set of specific frequencies. This range is from around 20 Hz to around 20,000 Hz.
+
+I'm abitrarily drawing this as a blob of frequencies in the allowed range of human hearing/speaking.
+
+<p align='center'> 
+    <img src="./assets/range_of_human_hearing.png" width="55%" height="55%">
+</p>
+
+Let's get back to our professors "invention". He said two people can be talking at the same time without their voices interfering.
+
+Suppose we had a very special person that could not only talk above this range, say 25,000 Hz to 45,000 Hz, but they could also only _hear_ at 25,000 Hz and 45,000 Hz.
+
+That would mean our ordinary human could be speaking to our special human, and the special human wouldn't hear them. It would also mean, the special human could also talk while the ordinary human did and they still wouldn't hear each other!
+
+That's what our cellphones do! They tune themselves to listen at a specific set of frequencies (exactly like a radio - as they are radios :) ).
+
+So if we had a way to take a human voice, move its set of frequencies to itw own unique band of frequencies, we could send lots of voice signals at once, and they wouldn't touch each other!
+
+<p align='center'> 
+    <img src="./assets/moving_signal.png" width="75%" height="75%">
+</p>
+
+
+We can imagine moving our signal from 0 to 20,000 Hz to 80,000 to 100,000 Hz. Cellphones actually operate in the mega- ($10^6$) and giga-($10^9$) hertz range, but we can ignore that for now; it's the same principle.
+
