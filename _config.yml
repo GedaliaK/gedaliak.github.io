@@ -1,5 +1,8 @@
 # Build settings
 
+plugins:
+  - jekyll-katex
+  
 markdown: kramdown
   math_engine: katex
   syntax_highlighter: rouge
