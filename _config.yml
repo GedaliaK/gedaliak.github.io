@@ -7,4 +7,6 @@ markdown: kramdown
 kramdown:
   math_engine: katex
   syntax_highlighter: rouge
-theme: minima
+# theme: minima
+
+remote_theme: jekyll/minima
