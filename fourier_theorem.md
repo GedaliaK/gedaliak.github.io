@@ -35,8 +35,11 @@ Say your teacher says to you:
 
 You might say back: I think you've bought a cellphone.
 
-<!-- <img src="./assets/big%20brain%20teacher.png" width="50%" height="50%"> -->
-<img src="./assets/big%20brain%20teacher.png">
+<p align='center'> 
+    <img src="./assets/big%20brain%20teacher.png" width="55%" height="55%"> 
+</p>
+
+<!-- <img src="./assets/big%20brain%20teacher.png"> -->
 
 Well, you'd be right, but he does propose an interesting question - how _do_ two people have a conversation on their phones without another phone conversation interfering with it. It's like asking, if we have many pairs of people talking in the same room to each other, how can they hear each other with all the background noise.
 
