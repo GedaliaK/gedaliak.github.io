@@ -94,3 +94,21 @@ So if we had a way to take a human voice, move its set of frequencies to itw own
 
 We can imagine moving our signal from 0 to 20,000 Hz to 80,000 to 100,000 Hz. Cellphones actually operate in the mega- ($10^6$) and giga-($10^9$) hertz range, but we can ignore that for now; it's the same principle.
 
+Phone providers, like Verizon and AT&T, get bands allocated to put their users voice signals, so they don't interfere.
+
+The process for a cellphone signal going from one person to another might look like one person talks into their phone, the phone moves (or modulates to be specific) the signal up to a higher frequency like in the picture, the signal gets sent over the air to the second person, and their phone does the reverse process of moving the signal back to human hearing range.
+
+I've now told you all this, but we haven't touched the _real_ math though. I'm leaving that to you though ;) 
+
+I want this to get you interested in this stuff, as to truly understand the inner workings of this all, Mr. Joseph Fourier is the man who uncovers all of that. It'll use some calculus, imaginary numbers, grit, and practice.
+
+For me, coming to understand Fourier Theorem and some of its truly amazing applications was incredible. 
+
+So much of electrical engineering and modern technology can trace its roots back to Fourier.
+
+He discovered the math that allows us to represent signals as sets of tones, which is used in all of our technology today, from phones, to images and cameras, and even Snapchat TM Big Company Name filters.
+
+<p align='center'> 
+    <img src="./assets/joseph-fourier-portrait.jpg">
+    Joseph Fourier, 1768 - 1830.
+</p>
