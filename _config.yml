@@ -1,12 +1,11 @@
 # Build settings
 
-plugins:
-  - jekyll-katex
+# plugins:
+#   - jekyll-katex
 
 markdown: kramdown
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
-# theme: minima
 
 remote_theme: jekyll/minima
