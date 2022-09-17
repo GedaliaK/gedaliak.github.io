@@ -2,8 +2,9 @@
 
 plugins:
   - jekyll-katex
-  
+
 markdown: kramdown
+kramdown:
   math_engine: katex
   syntax_highlighter: rouge
 theme: minima
