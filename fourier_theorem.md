@@ -43,6 +43,26 @@ You might say back: I think you've bought a cellphone.
 
 Well, you'd be right, but he does propose an interesting question - how _do_ two people have a conversation on their phones without another phone conversation interfering with it. It's like asking, if we have many pairs of people talking in the same room to each other, how can they hear each other with all the background noise.
 
-Another way to frame the question, interestingly enough, is: if two people are playing the same note on a piano and a flute, how can we tell the intruments apart. A note is, a note, is a note... right?
+Another way to frame the question, interestingly enough, is: if two people are playing the same note on a piano and a flute, how can we tell the intruments apart? A note is, a note, is a note... right?
 
 Well yes... sort of.
+
+The first step to understanding the difference in sound between two instruments is that we hear sound as a collection of frequencies or tones. The strength of these different tones gives the sound its fingerprint.
+
+Fourier Theorem says this very idea, sound (or really almost any signal) can be composed of tones of different strength.
+
+These tones are sines and cosines.
+
+So let's say middle C on the piano is made up of sine waves or tones with frequencies: $262$, $524$, and $786$ Hz.
+
+Where Hz is just the unit of frequency (how low or high pitched the tone is).
+
+By the argument from before, the flute should have the same frequencies but the different _strengths_ of each one.
+
+So our piano might have those tones with strengths (or amplitudes) of $5$, $1$, and $2$, but our flute might have strenghs $2$, $4$, and $3$. 
+
+I made those numbers up, but what those numbers would mean is that the piano has a stronger lower frequency component, while the flute has stronger high frequency components.
+
+<p align='center'> 
+    <img src="./assets/piano_and_flute.png" > 
+</p>
