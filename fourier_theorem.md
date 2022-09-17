@@ -108,10 +108,12 @@ So much of electrical engineering and modern technology can trace its roots back
 
 He discovered the math that allows us to represent signals as sets of tones, which is used in all of our technology today, from phones, to images and cameras, and even Snapchat filters.
 
-<figure style="text-align: center">
+<p align="center">
+<figure align="center">
 <img src="./assets/joseph-fourier-portrait.jpg" width="45%" height="45%">
 <figcaption>  Joseph Fourier, 1768 - 1830 <a href='http://www.cambridgeblog.org/2014/12/joseph-fourier-heat-radiation-and-finding-new-answers/'> (image source).</a>
 </figcaption>
 </figure>
+</p>
 
 Breaking down complex ideas into simpler ones, like breaking down complex signals into simpler tones, is a huge idea. It's made me really love electrical engineering as it gives me more tools to have a fundamental understanding of the world around us.
