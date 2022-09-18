@@ -11,15 +11,15 @@ I guess this would start back in Linear Algebra - I was taking the class and had
 Queue my first co-op, and I had time to start exploring some of the stuff we did in school in a more leisurely setting. this led me into finally learning about computer graphics. I would end up revisiting graphics a number of other times over the years, because it really is **cool**.
 
 
-<video width="320" height="240" controls>
-  <source src=".\readme_assets\opengl_demo.mp4" type="video/mp4">
+<figure align="center">
+    <p align="center">
+        <img src="./readme_assets/openg_gl_demo.png" width="75%" height="75%">
+        <figcaption>  Frame of an animation I made.
+        </figcaption>
+    </p>
+</figure>
 
-Your browser does not support the video tag.
 
-</video>
+In a similiar domain lays computer music. What interested me, like the computer graphics, was - how can we create music with a computer? 
 
-
-
-In a similiar domain lay computer music. What interested me, like the computer graphics, was - how can we create music with a computer? 
-
-I had dabbled in piano over the years and thought it would interesting to see if I could make piano sounds with computer programming.
+More specifically, I had dabbled in piano over the years and thought it would interesting to see if I could make piano sounds with computer programming.
