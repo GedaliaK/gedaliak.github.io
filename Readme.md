@@ -30,3 +30,34 @@ Queue my first co-op, and I had time to start exploring some of the stuff we did
 In a similiar domain lays computer music. What interested me, like the computer graphics, was - how can we create music with a computer? 
 
 More specifically, I had dabbled in piano over the years and thought it would interesting to see if I could make piano sounds with computer programming.
+
+Turned out it was a lot more complicated (and fun) than anticipated. It's pretty fun experimenting with sound design, and doing it all programatically. 
+
+The problem was I still wasn't getting the piano sound I wanted. 
+
+I eventually found out about music synthesis through physical modeling. That means developing mathematical and physical models of instruments and letting the models create the sound. Whoah. Yes, whoah.
+
+The base of these models typically is a wave equation, which meant I finally got to dabble in partial differential equations. At the time I was learning about solid state electronics and Shroedinger's Equation, so it was nice way to bring the ideas home.
+
+I ended up getting involved in music/electrical engineering research at school, which really gave me the oppurtunity to deep dive into trying to solve increasingly complex wave equations.
+
+<figure align="center">
+    <p align="center">
+        <img src="./readme_assets/wave_equation.png" width="75%" height="75%">
+        <figcaption>  One of the wave equations I worked on.
+        </figcaption>
+    </p>
+</figure>
+
+
+I was helping a graduate student work on using machine learning to identify guitar notes. Part of the work involved having an analytic synthesizer of guitar sounds, which meant a very excited me go to work on modeling the sound of guitars and their strings with wave equations!
+
+Now all the pieces that got me to where I am today were in place, and everything comes full circle.
+
+I had seen techniques from math, physics, and electrical engineering intersect with some of my big interests - and really loved it. I was wondering what I could do with this.
+
+Controls engineering actually does a lot of these things - math models are made of systems and analyzed to see how to control aspects of the system. But it seemed to me that another area did this even more - physics, which was all about making math models of systems!
+
+So that's what's next with me. I'm want to combine my love of math, physics, software, and electrical engineering to study systems, analyze them, and synthesize to better understand them.
+
+I see myself going into photonics or solid state electronics as those areas really are the intersection of EE, physics, and all have many or all of the topics that I am interested in.
