@@ -9,3 +9,5 @@ kramdown:
   syntax_highlighter: rouge
 
 remote_theme: jekyll/minima
+plugins:
+  - jemoji
