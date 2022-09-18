@@ -15,7 +15,7 @@ It's interesting as I think about it, because I think my schooling + hobbies sha
 
 I guess this would start back in Linear Algebra - I was taking the class and had heard it was an important one, but I wasn't really getting it. We touched on how we could use the math for computer graphics, which sounded neat to me. I mean, how do we represent 3D graphics on a 2D screen... kind of a cool question. Unfortunatley, we didn't really touch on that.
 
-Queue my first co-op, and I had time to start exploring some of the stuff we did in school in a more leisurely setting. this led me into finally learning about computer graphics. I would end up revisiting graphics a number of other times over the years, because it really is **cool**.
+Queue my first co-op, and I had time to start exploring some of the stuff we did in school in a more leisurely setting. This led me into finally learning about computer graphics. I would end up revisiting graphics a number of other times over the years, because it really is **cool**.
 
 
 <figure align="center">
@@ -58,6 +58,8 @@ I had seen techniques from math, physics, and electrical engineering intersect w
 
 Controls engineering actually does a lot of these things - math models are made of systems and analyzed to see how to control aspects of the system. But it seemed to me that another area did this even more - physics, which was all about making math models of systems!
 
-So that's what's next with me. I'm want to combine my love of math, physics, software, and electrical engineering to study systems, analyze them, and synthesize to better understand them.
+So that's what's next with me. I want to combine my love of math, physics, software, and electrical engineering to study systems, analyze them, and synthesize them to better understand them.
 
 I see myself going into photonics or solid state electronics as those areas really are the intersection of EE, physics, and all have many or all of the topics that I am interested in.
+
+Thanks for reading :slightly_smiling_face:.
