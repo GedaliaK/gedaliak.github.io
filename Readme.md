@@ -1,3 +1,10 @@
+---
+layout: page
+title: "Ah, yes, a Readme page! I'll start there :wink:"
+date: 2022-09-18
+categories: personal math "electrical engineering" music
+---
+
 ### Ah, yes, a Readme page! I'll start there :wink:
 
 So, what is this? This is me sharing what excites me with you, fellow reader.
