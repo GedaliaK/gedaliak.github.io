@@ -83,7 +83,7 @@ Suppose we had a very special person that could not only talk above this range, 
 
 That would mean our ordinary human could be speaking to our special human, and the special human wouldn't hear them. It would also mean, the special human could also talk while the ordinary human did and they still wouldn't hear each other!
 
-That's what our cellphones do! They tune themselves to listen at a specific set of frequencies (exactly like a radio - as they are radios :smiley: ).
+That's what our cellphones do! They tune themselves to listen at a specific set of frequencies (exactly like a radio - as they are radios :slightly_smiling_face: ).
 
 So if we had a way to take a human voice, move its set of frequencies to its own unique band of frequencies, we could send lots of voice signals at once, and they wouldn't touch each other!
 
