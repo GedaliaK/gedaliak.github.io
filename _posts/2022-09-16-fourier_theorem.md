@@ -35,7 +35,7 @@ Say your teacher says to you:
 You might say back: I think you've bought a cellphone.
 
 <p align='center'> 
-    <img src="/assets/media/big 20brain teacher.png" width="55%" height="55%"> 
+    <img src="/assets/media/big brain teacher.png" width="55%" height="55%"> 
 </p>
 
 <!-- <img src="./big%20brain%20teacher.png"> -->
