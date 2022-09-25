@@ -1,0 +1,107 @@
+---
+layout: post
+title: "More OpenGL: Getting Advanced!"
+subtitle: "Languages/Frameworks: C,C++ and OpenGL"
+date: 2022-09-18 10:45:13 -0400
+author: Gedalia Koehler
+background: '/assets/media/opengl_thumbnail.png'
+---
+
+<h2>Overview</h2>
+<p>Over the summer I did another dive into OpenGL. Graphics still fascinate me, especially seeing the beautiful effects that can be purely mathematically generated.</p>
+
+<p>I learned some more advanced features this time around, including making algorithms for generating all sorts of shapes/meshes, lighting, and instancing (a way to render many of a similar graphic primitive in parallel)!</p>
+<h3>Getting Some 3D Meshes</h3>
+<p>I first had to relearn the basics of OpenGL (making 2D triangles, adding colors, rendering lines and points, etc.), but eventually (or maybe a few eventuallies) I was able to generate some points with math, connect those points together correctly, add some color, and do some movement of the generated mesh.</p>
+
+<p>Here's what some of those looked like:</p>
+
+<!-- <video muted width="640" height="480" controls>
+  <source src="img/basic_shape1.MOV" type="video/mp4">
+Your browser does not support embedded videos.
+</video>
+<br>
+<small>Some hill like surface generated with sines, cosines, and color determined by the height of the suface (red towards the bottom and darker towards the top). </small>
+<br>
+<br> -->
+<iframe muted src="https://drive.google.com/file/d/1DmmTGSMaNfbcrB7GaJzAbuvkY7VwgfbB/preview" width="640" height="480" allow="autoplay"></iframe>
+<br>
+<small>Some hill like surface generated with sines, cosines, and color determined by the height of the suface (red towards the bottom and darker towards the top). </small>
+<br>
+<br>
+
+<!-- <video muted width="640" height="480" controls>
+  <source src="img/basic_shape2.MOV" type="video/mp4">
+Your browser does not support embedded videos.
+</video>
+<br>
+<small>Similiar kind of thing, just a different color scheme. </small>
+<br>
+<br> -->
+<iframe  muted src="https://drive.google.com/file/d/1X-8jLLR59VZvko4y8CyS1JIIw2GMRqib/preview" width="640" height="480" allow="autoplay"></iframe>
+<br>
+<small>Similiar kind of thing, just a different color scheme. </small>
+<br>
+<br>
+
+<h3>Adding Some Lighting</h3>
+<p>Next I added some Phong Lighting, which basically light objects based off how a light source hits an object, the object's natural luminescense.
+
+<!-- <video muted width="640" height="480" controls>
+  <source src="img/cubes and lighting.MOV" type="video/mp4">
+Your browser does not support embedded videos.
+</video> -->
+<iframe  muted src="https://drive.google.com/file/d/1aFH1GfYEM7BA5Rk3eZsMnAGssCkpTKlx/preview" width="640" height="480" allow="autoplay"></iframe>
+<br>
+<small>Cubes moving around, acting as light sources, their color adds together on the white surface. </small>
+<br>
+</p>
+
+<p>As a few final demos for lighting I: 
+  <ul>
+    <li>generated some hills using Perlin Noise (a type of random number system where numbers next to each other have some wave-like correllation)</li>
+    <li>and added camera control, so you can use the keyboard to move around the world</li>
+  </ul>
+</p>
+
+<!-- <video muted width="640" height="480" controls>
+  <source src="img/opengl demo.mp4" type="video/mp4">
+Your browser does not support embedded videos.
+</video> -->
+<iframe  muted src="https://drive.google.com/file/d/1WYU386J3WZvmmr61aYsF087UGvR6aEQd/preview" width="640" height="480" allow="autoplay"></iframe>
+<br>
+<small>Hills, lighting, and camera control. </small>
+<br>
+
+<!-- <video muted width="640" height="480" controls>
+  <source src="img/perlin noise lighting 1.MOV" type="video/mp4">
+Your browser does not support embedded videos.
+</video> -->
+
+
+<br>
+<iframe muted src="https://drive.google.com/file/d/18kfCLhrCH0VfxBPY-hvD6ZXwqIE0FdUV/preview" width="640" height="480" allow="autoplay"></iframe>
+<br>
+<small>Extra smooth hills (extra poor video quality!).</small>
+<br>
+<br>
+
+<h3>Instancing (Many Blades of Grass)</h3>
+<p>One final topic I looked at was instancing, which is the ability to efficiently draw many of the same graphics primitives, such as grass. This is done by giving the GPU some mesh/item you want to draw, and instruction for how and where you want to draw some number of that item.</p>
+
+<p>I generated a little map and put as many blades of grass as my integrated graphics card could seem to handle, and voila, we have an FPS (sort of?).</p>
+
+<!-- <video muted width="640" height="480" controls>
+  <source src="img/every blade of grass is rendered.mp4" type="video/mp4">
+Your browser does not support embedded videos.
+</video> -->
+<iframe muted src="https://drive.google.com/file/d/1yfMleSHW2jYqiX-6qhBFfO0qx8MgG_9a/preview" width="640" height="480" allow="autoplay"></iframe>
+<br>
+<small>Kudos for reading till the end ;)</small>
+<br>
+<!-- </div>
+</div>
+</div>
+</article>
+
+<hr>
