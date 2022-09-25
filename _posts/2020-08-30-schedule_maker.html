@@ -1,0 +1,31 @@
+---
+layout: post
+title: "Scheduling with No Conflicts Tool"
+subtitle: "Languages/Frameworks: Python, Flask, BeautifulSoup, HTML, Javascript"
+date: 2020-08-30 10:45:13 -0400
+author: Gedalia Koehler
+background: '/assets/media/calendar_stock_filter.jpg'
+---
+
+<h2 class="section-heading">Overview</h2>
+
+<p>In this project, I took away the hassle of finding classes that have no timing conflicts. One simply plugs in the Drexel classes one wants to take, and the program makes a schedule based off the listed class times in Drexel's class database.</p>
+
+<a>
+  <img class="img-fluid" src="/assets/media/schedule_maker_cropped.png" alt="">
+</a>
+
+<h2 class="section-heading">The Inner Workings</h2>
+
+<p>The first step was webscraping and parsing the Drexel course website (Drexel WebTMS) and turning that into a database. I grabbed the data using Python's BeautifulSoup, and then parsed it based off the patterns I found in the website.</p>
+
+<p>The second step was developing an algorithm to make a schedule based off a student's request. I created a recursive algorithm that treats each class as a node in a tree and goes along a single branch of the tree until it finds a scheduling conflict. If it finds one, it goes back a layer in the tree and tries a different branch.</p>
+
+<p>This process continues until a working schedule is found (or not found) and then either shows the user the schedule it put together, or why it was not able to.</p>
+
+<a>
+  <img class="img-fluid" src="/assets/media/schedule.png" alt="">
+</a>
+
+<p>For the web interface, I used Flask, HTML, Javascript, and Bootstrap.</p>
+

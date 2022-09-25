@@ -1,6 +1,7 @@
-title:              Gedalia Koehler Webfolio
+title:              Gedalia Koehler
+homepage_title:     Project Page
 email:              gyk25@drexel.edu
-description:        Big and Little Dives into Math, Music, Engineering, and Computer Science
+description:        A Webfolio to Showcase Research and Personal Projects
 author:             Gedalia Koehler
 baseurl:            "/"
 url:                "https://gedaliak.github.io"
