@@ -2,7 +2,7 @@
 layout: page
 title: About Me
 description: ^ Some fun climbing in Philly
-background: '/assets/media/profile.png'
+background: '/assets/media/climbing.png'
 ---
 ### What is it?
 
