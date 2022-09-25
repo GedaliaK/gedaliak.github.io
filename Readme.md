@@ -1,65 +1,154 @@
----
-layout: page
-title: "Ah, yes, a Readme page! I'll start there :wink:"
-date: 2022-09-18
-categories: personal math "electrical engineering" music
----
+# [Start Bootstrap - Clean Blog Jekyll](https://startbootstrap.com/themes/clean-blog-jekyll/) - Official Jekyll Version
 
-### Ah, yes, a Readme page! I'll start there :wink:
+[Clean Blog Jekyll](https://startbootstrap.com/themes/clean-blog-jekyll/) is a stylish, responsive blog theme for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features a blog homepage, about page, contact page, and an example post page along with a working contact form powered by [Formspree](https://formspree.io/).
 
-So, what is this? This is me sharing what excites me with you, fellow reader.
+This repository holds the official Jekyll version of the Clean Blog theme on Start Bootstrap!
 
-We are headed to math models of systems, but there is a bit of journey to get there.
+## Preview
 
-It's interesting as I think about it, because I think my schooling + hobbies shaped this, which I didn't really realize until now.
+[![Clean Blog (Jekyll) Preview](https://startbootstrap.com/assets/img/screenshots/themes/clean-blog-jekyll.png)](http://StartBootstrap.github.io/startbootstrap-clean-blog-jekyll/)
 
-I guess this would start back in Linear Algebra - I was taking the class and had heard it was an important one, but I wasn't really getting it. We touched on how we could use the math for computer graphics, which sounded neat to me. I mean, how do we represent 3D graphics on a 2D screen... kind of a cool question. Unfortunatley, we didn't really touch on that.
+**[View Live Preview](http://StartBootstrap.github.io/startbootstrap-clean-blog-jekyll/)**
 
-Queue my first co-op, and I had time to start exploring some of the stuff we did in school in a more leisurely setting. This led me into finally learning about computer graphics. I would end up revisiting graphics a number of other times over the years, because it really is **cool**.
+## Installation & Setup
 
+### Using RubyGems
 
-<figure align="center">
-    <p align="center">
-        <img src="./readme_assets/openg_gl_demo.png" width="75%" height="75%">
-        <figcaption>  Frame of an animation I made.
-        </figcaption>
-    </p>
-</figure>
+When installing the theme using RubyGems, demo images, posts, and pages are not included. Follow the instructions below for complete setup.
 
+1. (Optional) Create a new Jekyll site: `jekyll new my-site`
+2. Replace the current theme in your `Gemfile` with `gem "jekyll-theme-clean-blog"`.
+3. Install the theme (run the command inside your site directory): `bundle install`
+4. Replace the current theme in your `_config.yml` file with `theme: jekyll-theme-clean-blog`.
+5. Build your site: `bundle exec jekyll serve`
 
-In a similiar domain lays computer music. What interested me, like the computer graphics, was - how can we create music with a computer? 
+Assuming there are no errors and the site is building properly, follow these steps next:
 
-More specifically, I had dabbled in piano over the years and thought it would interesting to see if I could make piano sounds with computer programming.
+1. Create the following pages if they do not exist already (or change the extension of existing markdown files from `.md` to `.html`):
 
-Turned out it was a lot more complicated (and fun) than anticipated. It's pretty fun experimenting with sound design, and doing it all programatically. 
+   * `index.html` - set to `layout: home`
+   * `about.html` - set to `layout: page`
+   * `contact.html` - set to `layout: page`
+   * `posts/index.html` - set to `layout: page` (you will also need to create a `posts` directory)
 
-The problem was I still wasn't getting the piano sound I wanted. 
+2. Configure the `index.html` front matter. Example:
 
-I eventually found out about music synthesis through physical modeling. That means developing mathematical and physical models of instruments and letting the models create the sound. Whoah. Yes, whoah.
+    ```markdown
+    ---
+    layout: home
+    background: '/PATH_TO_IMAGE'
+    ---
+    ```
 
-The base of these models typically is a wave equation, which meant I finally got to dabble in partial differential equations. At the time I was learning about solid state electronics and Shroedinger's Equation, so it was nice way to bring the ideas home.
+3. Configure the `about.html`, `contact.html`, and `posts/index.html` front matter. Example:
 
-I ended up getting involved in music/electrical engineering research at school, which really gave me the oppurtunity to deep dive into trying to solve increasingly complex wave equations.
+    ```markdown
+    ---
+    layout: page
+    title: Page Title
+    description: This is the page description.
+    background: '/PATH_TO_IMAGE'
+    ---
+    ```
 
-<figure align="center">
-    <p align="center">
-        <img src="./readme_assets/wave_equation.png" width="75%" height="75%">
-        <figcaption>  One of the wave equations I worked on.
-        </figcaption>
-    </p>
-</figure>
+4. For each post in the `_posts` directory, update the front matter. Example:
 
+    ```markdown
+    ---
+    layout: post
+    title: "Post Title"
+    subtitle: "This is the post subtitle."
+    date: YYYY-MM-DD HH:MM:SS
+    background: '/PATH_TO_IMAGE'
+    ---
+    ```
 
-I was helping a graduate student work on using machine learning to identify guitar notes. Part of the work involved having an analytic synthesizer of guitar sounds, which meant a very excited me go to work on modeling the sound of guitars and their strings with wave equations!
+    For reference, look at the [demo repository](https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll) to see how the files are set up.
 
-Now all the pieces that got me to where I am today were in place, and everything comes full circle.
+5. Add the form to the `contact.html` page. Add the following code to your `contact.html` page:
 
-I had seen techniques from math, physics, and electrical engineering intersect with some of my big interests - and really loved it. I was wondering what I could do with this.
+    ```html
+    <form name="sentMessage" id="contactForm" novalidate>
+      <div class="control-group">
+        <div class="form-group floating-label-form-group controls">
+          <label>Name</label>
+          <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+          <p class="help-block text-danger"></p>
+        </div>
+      </div>
+      <div class="control-group">
+        <div class="form-group floating-label-form-group controls">
+          <label>Email Address</label>
+          <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+          <p class="help-block text-danger"></p>
+        </div>
+      </div>
+      <div class="control-group">
+        <div class="form-group col-xs-12 floating-label-form-group controls">
+          <label>Phone Number</label>
+          <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
+          <p class="help-block text-danger"></p>
+        </div>
+      </div>
+      <div class="control-group">
+        <div class="form-group floating-label-form-group controls">
+          <label>Message</label>
+          <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+          <p class="help-block text-danger"></p>
+        </div>
+      </div>
+      <br>
+      <div id="success"></div>
+      <div class="form-group">
+        <button type="submit" class="btn btn-primary" id="sendMessageButton">Send</button>
+      </div>
+    </form>
+    ```
 
-Controls engineering actually does a lot of these things - math models are made of systems and analyzed to see how to control aspects of the system. But it seemed to me that another area did this even more - physics, which was all about making math models of systems!
+    Make sure you have the `email` setting in your `_config.yml` file set to a working email address! Once this is set, fill out the form and then check your email, verify the email address using the link sent to you by Formspree, and then the form will be working!
 
-So that's what's next with me. I want to combine my love of math, physics, software, and electrical engineering to study systems, analyze them, and synthesize them to better understand them.
+6. Build your site: `bundle exec jekyll serve`
 
-I see myself going into photonics or solid state electronics as those areas really are the intersection of EE, physics, and all have many or all of the topics that I am interested in.
+### Using Core Files
 
-Thanks for reading :slightly_smiling_face:.
+When using the core files, the demo images, posts, and pages are all included with the download. After following the instructions below, you can then go and change the content of the pages and posts.
+
+1. [Download](https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll/archive/master.zip) or Clone the repository.
+2. Update the following configuration settings in your `_config.yml` file:
+
+    * `baseurl`
+    * `url`
+    * `title`
+    * `email` (after setting this setting to a working email address, fill out the form on the contact page and send it - then check your email and verify the address and the form will send you messages when used)
+    * `description`
+    * `author`
+    * `twitter_username` (Optional)
+    * `facebook_username` (Optional)
+    * `github_username` (Optional)
+    * `linkedin_username` (Optional)
+    * `instagram_username` (Optional)
+
+3. Build your site: `bundle exec jekyll serve`
+
+## Bugs and Issues
+
+Have a bug or an issue with this template? [Open a new issue](https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll/issues) here on GitHub!
+
+## About
+
+Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+
+* <https://startbootstrap.com>
+* <https://twitter.com/SBootstrap>
+
+Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**.
+
+* <http://davidmiller.io>
+* <https://twitter.com/davidmillerhere>
+* <https://github.com/davidtmiller>
+
+Start Bootstrap is based on the [Bootstrap](https://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+
+## Copyright and License
+
+Copyright 2013-2021 Start Bootstrap LLC. Code released under the [MIT](https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll/blob/master/LICENSE) license.

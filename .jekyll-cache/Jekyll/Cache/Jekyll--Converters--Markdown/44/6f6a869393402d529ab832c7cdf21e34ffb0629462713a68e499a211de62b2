@@ -1,0 +1,56 @@
+I"	<h3 id="ah-yes-a-readme-page-ill-start-there-wink">Ah, yes, a Readme page! I’ll start there :wink:</h3>
+
+<p>So, what is this? This is me sharing what excites me with you, fellow reader.</p>
+
+<p>We are headed to math models of systems, but there is a bit of journey to get there.</p>
+
+<p>It’s interesting as I think about it, because I think my schooling + hobbies shaped this, which I didn’t really realize until now.</p>
+
+<p>I guess this would start back in Linear Algebra - I was taking the class and had heard it was an important one, but I wasn’t really getting it. We touched on how we could use the math for computer graphics, which sounded neat to me. I mean, how do we represent 3D graphics on a 2D screen… kind of a cool question. Unfortunatley, we didn’t really touch on that.</p>
+
+<p>Queue my first co-op, and I had time to start exploring some of the stuff we did in school in a more leisurely setting. This led me into finally learning about computer graphics. I would end up revisiting graphics a number of other times over the years, because it really is <strong>cool</strong>.</p>
+
+<figure align="center">
+    <p align="center">
+        <img src="/assets/media/openg_gl_demo.png" width="75%" height="75%" />
+        <figcaption>  Frame of an animation I made.
+        </figcaption>
+    </p>
+</figure>
+
+<p>In a similiar domain lays computer music. What interested me, like the computer graphics, was - how can we create music with a computer?</p>
+
+<p>More specifically, I had dabbled in piano over the years and thought it would interesting to see if I could make piano sounds with computer programming.</p>
+
+<p>Turned out it was a lot more complicated (and fun) than anticipated. It’s pretty fun experimenting with sound design, and doing it all programatically.</p>
+
+<p>The problem was I still wasn’t getting the piano sound I wanted.</p>
+
+<p>I eventually found out about music synthesis through physical modeling. That means developing mathematical and physical models of instruments and letting the models create the sound. Whoah. Yes, whoah.</p>
+
+<p>The base of these models typically is a wave equation, which meant I finally got to dabble in partial differential equations. At the time I was learning about solid state electronics and Shroedinger’s Equation, so it was nice way to bring the ideas home.</p>
+
+<p>I ended up getting involved in music/electrical engineering research at school, which really gave me the oppurtunity to deep dive into trying to solve increasingly complex wave equations.</p>
+
+<figure align="center">
+    <p align="center">
+        <img src="/startbootstrap-clean-blog-jekyll/assets/media/wave_equation.png" width="75%" height="75%" />
+        <figcaption>  One of the wave equations I worked on.
+        </figcaption>
+    </p>
+</figure>
+
+<p>I was helping a graduate student work on using machine learning to identify guitar notes. Part of the work involved having an analytic synthesizer of guitar sounds, which meant a very excited me go to work on modeling the sound of guitars and their strings with wave equations!</p>
+
+<p>Now all the pieces that got me to where I am today were in place, and everything comes full circle.</p>
+
+<p>I had seen techniques from math, physics, and electrical engineering intersect with some of my big interests - and really loved it. I was wondering what I could do with this.</p>
+
+<p>Controls engineering actually does a lot of these things - math models are made of systems and analyzed to see how to control aspects of the system. But it seemed to me that another area did this even more - physics, which was all about making math models of systems!</p>
+
+<p>So that’s what’s next with me. I want to combine my love of math, physics, software, and electrical engineering to study systems, analyze them, and synthesize them to better understand them.</p>
+
+<p>I see myself going into photonics or solid state electronics as those areas really are the intersection of EE, physics, and all have many or all of the topics that I am interested in.</p>
+
+<p>Thanks for reading :slightly_smiling_face:.</p>
+:ET
