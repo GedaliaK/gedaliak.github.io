@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "Fourier Theorem or: How I Learned to Stop Worrying and Love the Math."
 date: 2022-09-16
 categories: math "electrical engineering" fourier
@@ -64,7 +64,7 @@ So our piano might have those tones with strengths (or amplitudes) of $5$, $1$, 
 I made those numbers up, but what those numbers would mean is that the piano has a stronger lower frequency component, while the flute has stronger high frequency components.
 
 <p align='center'> 
-    <img src="./piano_and_flute.png" > 
+    <img src="./piano_and_flute.png"  width="55%" height="55%" > 
 </p>
 
 We can think of voice audio as the same sort of thing. A set of frequencies with different strengths. To make different sounds these strengths would change over time to form vowels and consanants. Our words are too, just like sounds, a combination of simpler parts. Sounds are a combination of frequencies, and words are a combination of vowels and consonants. 
