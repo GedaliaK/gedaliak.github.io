@@ -8,6 +8,16 @@ kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
 
-remote_theme: jekyll/minima
+# remote_theme: jekyll/minima
+remote_theme: jonaharagon/jekyll-bootstrap-theme
 plugins:
   - jemoji
+
+author:
+  name: 'Gedalia Koehler'
+  email: 'gyk25@drexel.edu
+
+bootstrap:
+  header_pages:
+   - about.md
+   - fourier_theorem_page\fourier_theorem.md
