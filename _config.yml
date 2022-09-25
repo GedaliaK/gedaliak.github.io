@@ -9,6 +9,9 @@ kramdown:
   syntax_highlighter: rouge
 
 # remote_theme: jekyll/minima
+plugins:
+  - jekyll-remote-theme
+
 remote_theme: jonaharagon/jekyll-bootstrap-theme
 plugins:
   - jemoji
