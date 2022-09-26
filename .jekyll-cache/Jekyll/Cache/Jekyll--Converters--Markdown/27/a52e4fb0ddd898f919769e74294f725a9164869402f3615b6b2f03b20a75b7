@@ -1,0 +1,34 @@
+I"�<h3 id="modeling-guitar-strings-for-sound-synthesis-article-in-progress">Modeling Guitar Strings for Sound Synthesis (Article in Progress)</h3>
+
+<p>General work flow was:</p>
+<ol>
+  <li>Solve wave equation</li>
+  <li>Look at time signal and frequency domain spectra</li>
+  <li>Listen to wave equation</li>
+  <li>Compare with sampled guitar sounds</li>
+</ol>
+
+<h4 id="work-done">Work done:</h4>
+<ul>
+  <li>modeled and solved 1D wave equations with viscous friction, frequency dependent losses, and stiffness.</li>
+  <li>techniques used:
+    <ul>
+      <li>separation of variables to solve Partial Differential Equations (PDEs).</li>
+      <li>Routh Criteria analysis to verify validaty of solutions (stability analysis).</li>
+      <li>Discrete modeling with digital waveguides and finite difference equations</li>
+      <li>Inverse modeling:
+        <ul>
+          <li>traced peaks of spectrogram of recorded guitar notes, and used those to interpolate and generate an analytical model of the equations</li>
+          <li>used Prinicple Component Analysis in attempt to break recorded samples into eigen-“notes” (like eigen-faces in machine learning) and reconstruct notes with eigenvectors and eigenvalues.</li>
+        </ul>
+      </li>
+      <li>convolved impulse response of recorded guitars with above methods to try and capture more dynamics of the systems.</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="purpose-of-work">Purpose of Work:</h4>
+<p>Grad student was working on an Automatic Guitar Transcription machine learning model that was being trained to minimize the loss between notes it heard and notes it was generating. Ideally, if the model could generate a note that matched what it heard, it would also know what note it had heard. By having an analytical model of note generation, it would be easier to calculate loss between the generated and recorded notes, and use automatic differentiation.</p>
+
+<p>This is based off the <a href="https://arxiv.org/abs/1906.03697">DrummerNet Paper</a>.</p>
+:ET

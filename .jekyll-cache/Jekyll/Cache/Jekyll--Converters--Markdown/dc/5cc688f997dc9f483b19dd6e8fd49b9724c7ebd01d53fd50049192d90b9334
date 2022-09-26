@@ -1,0 +1,52 @@
+I"e<h3 id="making-a-virtual-singing-coach-article-in-progress">Making a Virtual Singing Coach (Article in Progress)</h3>
+
+<p>So, I love music. This comes especially in the form of playing songs with chords on my piano keyboard and <em>trying</em> to sing along.</p>
+
+<p>The problem is that I’m not the best singer. It’s pretty hard for me to match the pitch of what I’m hearing or thinking.</p>
+
+<p>“There must be some online tool to help me with this!”, I thought. Well, there were, but being an engineer they weren’t exactly what I was looking for, so naturally I had to make my own tool.</p>
+
+<p>I wanted something that could tell me, precisely, what I was singing relative to the piano. If I wanted to sing A4 and I was singing G4, I wanted to know that.</p>
+
+<figure align="center">
+    <p align="center">
+        <img src="/assets/media/voice_coach_background.png" width="95%" height="95%" />
+    </p>
+</figure>
+
+<p>Introducing… <strong>Magic Piano Voice Coach “Thing”</strong></p>
+
+<video controls="controls" width="640" height="480" name="pitch matching video">
+  <source src="/assets/media/pitch_matching.mov" />
+  caption
+</video>
+
+<p>As you can see in the video, I play notes on the piano and then try to sing them back. The app lights up what notes it is hearing by doing a Short Time Fourier Transform (it converts a window of sound signals into a spectrum of frequency intensities) and then mapping the frequencies in the STFT to the notes on the piano. There are no MIDI notes or other connections from the piano to the computer; the computer is simply listening to what comes in through the microphone. That is to say, you could have the computer listen to any signal/instrument, and have it light up the corresponding piano notes.</p>
+
+<p>This actually did help me with singing, as I could see what I was singing relative to what I wanted to sing.</p>
+
+<p>I practiced with this by playing some piano notes (which the app does a nice job of mapping to the correct notes - as you would hope it could map piano sounds to piano notes :joy:), listening to what I heard, and then trying to sing them back.</p>
+
+<p>Rinse repeat, and now I’m an expert singer!</p>
+
+<p>Well, no, not really. But I think this did help me with singing.</p>
+
+<p>I also used this for the reverse process recently as well. I was trying to figure out what notes a song melody corresponded to, so I sang the melody to the program, and had the program lit up the corresponding piano notes. I could then reverse engineer a song.</p>
+
+<p>For those curious, I wrote this app in Python using Pygame to do the visualizations, and numpy and scipy to do the math (mostly FFT’s).</p>
+
+<p>The threshold slider informs the progam how strong the frequencies have to be light up a note with that frequency.</p>
+
+<p>Another curious fact, was that I noticed when I playd chords, my ear was often most sensitive to the highest note in the chord. So if I played C Major (CEG), I would often sing back G, since that would be highest. This makes sense, as our ears our more sensitive to higher frequencies.</p>
+
+<p>You can see this objectively in this equal loudness curve, which shows what level/pressure of sound you have to hear for a given frequency for it to sound equally loud to another. The higher frequencies need a much lower pressure to have equal loudness relative to the lower frequencies.</p>
+
+<figure align="center">
+    <p align="center">
+        <img src="/assets/media/equal_loudness_curve.png" width="55%" height="55%" />
+        <figcaption> Equal loudness curve (<a href="https://en.wikipedia.org/wiki/Equal-loudness_contour">source</a>)
+        </figcaption>
+    </p>
+</figure>
+
+:ET

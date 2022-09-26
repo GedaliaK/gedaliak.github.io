@@ -24,7 +24,13 @@ I wanted something that could tell me, precisely, what I was singing relative to
 
 Introducing... **Magic Piano Voice Coach "Thing"**
 
-**Insert video of playing notes and trying to sing them back**
+<video controls="controls" width="640" height="480" name="pitch matching video">
+  <source src="/assets/media/pitch_matching.mov">
+</video>
+<p align='center'> 
+<small align="center">Playing a note and trying to sing it back.</small> 
+</p>
+
 
 As you can see in the video, I play notes on the piano and then try to sing them back. The app lights up what notes it is hearing by doing a Short Time Fourier Transform (it converts a window of sound signals into a spectrum of frequency intensities) and then mapping the frequencies in the STFT to the notes on the piano. There are no MIDI notes or other connections from the piano to the computer; the computer is simply listening to what comes in through the microphone. That is to say, you could have the computer listen to any signal/instrument, and have it light up the corresponding piano notes.
 
