@@ -1,4 +1,4 @@
-I"[<h3 id="making-a-virtual-singing-coach">Making a Virtual Singing Coach</h3>
+I" <h3 id="making-a-virtual-singing-coach-article-in-progress">Making a Virtual Singing Coach (Article in Progress)</h3>
 
 <p>So, I love music. This comes especially in the form of playing songs with chords on my piano keyboard and <em>trying</em> to sing along.</p>
 
@@ -7,6 +7,12 @@
 <p>“There must be some online tool to help me with this!”, I thought. Well, there were, but being an engineer they weren’t exactly what I was looking for, so naturally I had to make my own tool.</p>
 
 <p>I wanted something that could tell me, precisely, what I was singing relative to the piano. If I wanted to sing A4 and I was singing G4, I wanted to know that.</p>
+
+<figure align="center">
+    <p align="center">
+        <img src="/assets/media/voice_coach_background.png" width="95%" height="95%" />
+    </p>
+</figure>
 
 <p>Introducing… <strong>Magic Piano Voice Coach “Thing”</strong></p>
 

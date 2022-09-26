@@ -6,7 +6,7 @@ background: /assets/media/voice_coach_background.png
 date: 2022-05-12
 ---
 
-### Making a Virtual Singing Coach
+### Making a Virtual Singing Coach (Article in Progress)
 
 So, I love music. This comes especially in the form of playing songs with chords on my piano keyboard and _trying_ to sing along. 
 
