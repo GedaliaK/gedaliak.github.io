@@ -2,7 +2,7 @@
 layout: post
 title: "Graduated College!"
 subtitle: Undergrad be gone
-background: assets/media/cropped_ray_traced_two_reflections.png
+background: /assets/media/cropped_ray_traced_two_reflections.png
 date: 2023-06-12
 ---
 
